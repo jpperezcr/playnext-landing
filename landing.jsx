@@ -208,10 +208,10 @@ function TwoSides() {
               <span className="side-tag">· PARA EL FAN ·</span>
             </div>
             <h3>Pide tu canción sin gritar.</h3>
-            <p>Escaneas, encuentras tu tema preferido. Recibes un ticket con tu número en lista.</p>
+            <p>Escaneas, encuentras tu tema preferido.</p>
             <ul>
               <li><CheckSm /> Setlist completo del músico, filtrable por era o vibe</li>
-              <li><CheckSm /> Ticket con número de cola y tiempo estimado</li>
+              <li><CheckSm /> Setlists específicos para tu evento privado</li>
               <li><CheckSm /> Sabrás quién es el artista y su contacto</li>
               <li><CheckSm /> No más servilletas y lapiceros</li>
             </ul>
@@ -227,7 +227,7 @@ function TwoSides() {
               <li><CheckSm /> Solo complacencias que sí tienes.</li>
               <li><CheckSm /> Clientes a un click de tus redes y contacto</li>
               <li><CheckSm /> Song Battle Mode: el publico vota las favoritas en cola</li>
-              <li><CheckSm /> Analytics post-show: que canción es mas pedida?</li>
+              <li><CheckSm /> Analytics: Cantidad de requests, canciones más pedidas, clicks en redes y más.</li>
             </ul>
           </div>
         </div>

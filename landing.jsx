@@ -422,8 +422,8 @@ const FAQS = [
   a: 'Las desactivas del setlist con un toggle. Y siempre puedes rechazar pedidos individuales con un tap, el fan ve que su pedido fue declinado sin drama.'
 },
 {
-  q: '¿Necesito hardware especial?',
-  a: 'Solo un teléfono o tablet con tu panel de músico abierto. El bar solo necesita imprimir el QR — un papel A5 sobre la mesa basta.'
+  q: '¿Qué necesito para empezar a usarlo en mi próximo show?',
+  a: 'Solo un teléfono o tablet con tu panel de músico abierto. Los fans solo necesitan el QR o el link de complacencias — un papel sobre la mesa basta.'
 }];
 
 

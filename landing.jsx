@@ -77,11 +77,7 @@ function Hero() {
           </div>
           <div className="hero-microcopy">
             <span className="ok">●</span>
-            <span>Gratis para empezar</span>
-            <span className="dot"></span>
-            <span>Sin tarjeta</span>
-            <span className="dot"></span>
-            <span>Listo en 5 min</span>
+            <span>Comienza gratis</span>
           </div>
         </div>
 
@@ -138,7 +134,7 @@ function HowItWorks() {
           <div className="step">
             <div className="step-num"><span className="n">1</span> SETLIST</div>
             <h3>Subes lo que tocas</h3>
-            <p>Importa tu repertorio, agrupa por época, vibe, genero, idioma, como prefieras.</p>
+            <p>Acceso a tu repertorio, agrupa por época, vibe, genero, idioma, como prefieras.</p>
             <div className="step-visual">
               <div style={{ display: 'flex', gap: 6 }}>
                 {['80s', '90s', '2000s'].map((t) =>
@@ -151,7 +147,7 @@ function HowItWorks() {
           <div className="step">
             <div className="step-num"><span className="n">2</span> QR</div>
             <h3>A un QR de distancia.</h3>
-            <p>Los fans lo escanean desde su mesa. Sin descargar nada. Funciona en cualquier teléfono.</p>
+            <p>Los fans lo escanean desde su mesa. Sin descargar nada. Funciona en cualquier dispositivo.</p>
             <div className="step-visual">
               <div className="qr"><div className="qr-corner"></div></div>
             </div>
@@ -209,9 +205,9 @@ function TwoSides() {
             <p>Escaneas, encuentras tu tema preferido.</p>
             <ul>
               <li><CheckSm /> Setlist completo del músico, filtrable por era o vibe</li>
-              <li><CheckSm /> Setlists específicos para tu evento privado</li>
-              <li><CheckSm /> Sabrás quién es el artista y su contacto</li>
-              <li><CheckSm /> No más servilletas y lapiceros</li>
+              <li><CheckSm /> Setlists específicos para eventos privado</li>
+              <li><CheckSm /> Sabrán quién es el artista y su contacto</li>
+              <li><CheckSm /> No más servilletas, lapiceros o gritos a distancia</li>
             </ul>
           </div>
 
@@ -238,7 +234,7 @@ function TwoSides() {
 const FEATURES = [
 {
   icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M12 6v6l4 2" /><circle cx="12" cy="12" r="9" /></svg>,
-  title: 'Cola en tiempo real',
+  title: 'Complacencias en tiempo real',
   body: 'Cada pedido aparece al instante en tu pantalla. Sin refrescar nada.'
 },
 {

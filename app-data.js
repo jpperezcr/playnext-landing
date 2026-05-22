@@ -55,7 +55,7 @@ window.ANALYTICS = {
   totalRequests: 87,
   played: 24,
   rejected: 5,
-  avgTip: 4.20,
+  avgTip: 37.00,
 };
 
 // Initial pending requests for musician panel

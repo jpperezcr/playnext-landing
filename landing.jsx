@@ -315,9 +315,9 @@ function AnalyticsTeaser() {
 
         <div className="kpis">
           <div className="kpi-card">
-            <div className="kpi-label">Scans únicos</div>
+            <div className="kpi-label">Scans del mes</div>
             <div className="kpi-n neon">{A.uniqueScans}</div>
-            <div className="kpi-sub">+38% vs. el show anterior</div>
+            <div className="kpi-sub">+38% vs. el mes anterior</div>
           </div>
           <div className="kpi-card">
             <div className="kpi-label">TIPS DEL MES (PROXIMAMENTE)</div>
@@ -372,11 +372,10 @@ function Pricing() {
             <p className="plan-desc">Ideal para empezar a probar con tus próximos shows.</p>
             <ul>
               <li><CheckSm /> 1 show activo por mes</li>
-              <li><CheckSm /> Setlist con hasta 30 canciones</li>
-              <li><CheckSm /> Cola en tiempo real</li>
-              <li><CheckSm /> QR personalizado básico</li>
-              <li><CheckSm /> Propinas integradas (15% fee) (priximamente)</li>
-              <li className="muted"><CheckSm /> Propinas integradas (próximamente)</li>
+              <li><CheckSm /> Setlist con hasta 50 canciones</li>
+              <li><CheckSm /> Complacencias en tiempo real</li>
+              <li><CheckSm /> QR personalizado</li>
+              <li><CheckSm /> Opción de mensaje con la complacencia.</li>
             </ul>
             <a className="btn btn-ghost btn-lg" href="#waitlist" onClick={openWaitlist}>Sumarme a la beta</a>
           </div>
@@ -389,15 +388,16 @@ function Pricing() {
               <span className="num">12</span>
               <span className="per">/ mes</span>
             </div>
-            <p className="plan-desc">Para músicos que tocan en serio y quieren los datos.</p>
+            <p className="plan-desc">Para músicos alto volumen de eventos, públicos y privados.</p>
             <ul>
               <li><CheckSm /> Shows ilimitados</li>
-              <li><CheckSm /> Catálogo sin límite</li>
-              <li><CheckSm /> Tips 0% fee - Todo es tuyo</li>
-              <li><CheckSm /> Branding completo (logo, colores, contacto)</li>
+              <li><CheckSm /> Categorías de setlist sin límite</li>
+              <li><CheckSm /> Creador de playlist para clientes privados</li>
+              <li><CheckSm /> Branding completo (logo, colores, contactos)</li>
               <li><CheckSm /> Analytics histórico completo</li>
               <li><CheckSm /> Battle Songs Mode: Habilitado</li>
-              <li><CheckSm /> Soporte prioritario</li>
+              <li><CheckSm /> Calendario de próximos shows</li>
+              <li className="muted"><CheckSm /> Propinas integradas (próximamente) </li>
             </ul>
             <a className="btn btn-primary btn-lg" href="#waitlist" onClick={openWaitlist}>Avísame cuando esté disponible</a>
           </div>
@@ -412,10 +412,6 @@ const FAQS = [
 {
   q: '¿El fan necesita descargar una app?',
   a: 'No. PlayNext es una web app. El fan escanea el QR con la cámara, se abre en el navegador y listo. Funciona en cualquier celular con conexión. También puede ingresar por medio de link.'
-},
-{
-  q: '¿Cómo recibo el dinero de los tips?',
-  a: 'Las propinas vienen en camino. Cuando estén disponibles, conectarás tu cuenta de pago (Stripe, Mercado Pago, según país) y el monto llegará directo a tu cuenta. Free tendrá un fee del 15%; Pro será 0%.'
 },
 {
   q: '¿Puedo agregar cualquier canción?',

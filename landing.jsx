@@ -69,9 +69,7 @@ function Hero() {
             La próxima canción<br />
             la elige <span className="accent">el público</span>.
           </h1>
-          <p className="hero-sub">Menos servilletas.
-Más conexión.
-          </p>
+          <p className="hero-sub">Haz que todos se sientan parte.</p>
           <div className="hero-cta">
             <a className="btn btn-primary btn-xl" href="#waitlist" onClick={openWaitlist}>
               Sumarme a la beta <Arrow />

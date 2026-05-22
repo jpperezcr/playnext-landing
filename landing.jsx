@@ -302,7 +302,7 @@ function AnalyticsTeaser() {
         <div>
           <span className="eyebrow">Analytics</span>
           <h2 className="section-title">Conoce mejor<br />a tu público.</h2>
-          <p className="section-sub">Cada noche genera datos: qué canciones piden más, cuántos escanearon, cuánto dejaron en tips. Útil para armar tu próximo setlist o mostrar estadística a tus clientes.
+          <p className="section-sub">Cada noche genera datos: qué canciones piden más, cuántos escanearon, cuantos dieron click a tus redes sociales. Útil para armar tu próximo setlist o mostrar estadística a tus clientes.
 
           </p>
           <div className="hero-cta">

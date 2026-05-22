@@ -244,31 +244,14 @@ const FEATURES = [
   emerald: true
 },
 {
-  icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="6" y="5" width="4" height="14" rx="1" /><rect x="14" y="5" width="4" height="14" rx="1" /></svg>,
-  title: 'Pausa entre sets',
-  body: 'Un switch para frenar pedidos mientras descansas o cambias de banda.'
-},
-{
   icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M3 17l6-6 4 4 8-8" /><path d="M14 7h7v7" /></svg>,
   title: 'Song Battle Mode',
   body: 'El publico da like a las canciones en cola y se ordenará por las más votadas.'
 },
 {
-  icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><circle cx="9" cy="9" r="2" /><circle cx="15" cy="15" r="2" /><path d="M21 3v6h-6M3 21v-6h6" /><path d="M21 3l-9 9M3 21l9-9" /></svg>,
-  title: 'Multi-show & venues',
-  body: 'QR único para tu banda, tu setlist y sus analytics. Reusables.',
-  emerald: true
-},
-{
   icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M21 11.5a8.38 8.38 0 0 1-.9 3.8 8.5 8.5 0 0 1-7.6 4.7 8.38 8.38 0 0 1-3.8-.9L3 21l1.9-5.7a8.38 8.38 0 0 1-.9-3.8 8.5 8.5 0 0 1 4.7-7.6 8.38 8.38 0 0 1 3.8-.9h.5a8.48 8.48 0 0 1 8 8v.5z" /></svg>,
   title: 'Notas del fan',
   body: '"Para el cumple de mi novia 🖤". Recibes el mensaje junto al pedido.'
-},
-{
-  icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><rect x="3" y="3" width="18" height="18" rx="2" /><path d="M3 9h18M9 21V9" /></svg>,
-  title: 'Tu marca, tu QR',
-  body: 'Personaliza colores, logo y nombre. El fan ve tu banda, no PlayNext.',
-  emerald: true
 },
 {
   icon: <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round"><path d="M2 12h4l3-9 6 18 3-9h4" /></svg>,
@@ -288,7 +271,7 @@ function Features() {
       <div className="wrap">
         <div style={{ maxWidth: 720 }}>
           <span className="eyebrow">Features</span>
-          <h2 className="section-title">Hecho para tocadas reales.</h2>
+          <h2 className="section-title">Hecho para eventos reales.</h2>
           <p className="section-sub">
             Cada función nació de un problema real en escenario. No hay nada de relleno.
           </p>

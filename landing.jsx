@@ -320,9 +320,8 @@ function AnalyticsTeaser() {
             <div className="kpi-sub">+38% vs. el show anterior</div>
           </div>
           <div className="kpi-card">
-            <div className="kpi-label">TIP PROMEDIO (PROXIMAMENTE)</div>
-            <div className="kpi-n emerald">${A.avgTip?.toFixed?.(2) || '4.20'}</div>
-            <div className="kpi-sub">por canción pedida</div>
+            <div className="kpi-label">TIPS DEL MES (PROXIMAMENTE)</div>
+            <div className="kpi-n emerald">${A.avgTip?.toFixed?.(2) || '37.00'}</div>
           </div>
           <div className="kpi-card big">
             <div className="kpi-label">Top requested · esta noche</div>

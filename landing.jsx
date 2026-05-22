@@ -215,7 +215,7 @@ function TwoSides() {
             <div className="side-header">
               <span className="side-tag">· PARA EL MÚSICO ·</span>
             </div>
-            <h3>La cola se ordena sola.</h3>
+            <h3>Las complacencias se ordenan solas.</h3>
             <p>Tú eliges Play o Reject. Pausa entre sets sin estrés. Mira cuáles son las peticiones favoritas.</p>
             <ul>
               <li><CheckSm /> Solo complacencias que sí tienes.</li>
